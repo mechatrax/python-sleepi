@@ -1,0 +1,32 @@
+Source: python-sleepi
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Section: python
+Priority: extra
+Build-Depends: python (>= 2.7),
+               python3 (>= 3.4),
+               python-setuptools,
+               python3-setuptools,
+               dh-python,
+               debhelper (>= 9)
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.4
+Vcs-Git: https://github.com/mechatrax/python-sleepi.git
+Vcs-browser: https://github.com/mechatrax/python-sleepi
+Homepage: http://www.mechatrax.com/
+
+Package: python-sleepi
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-smbus
+Description: Python module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 2.
+ 
+Package: python3-sleepi
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-smbus
+Description: Python 3 module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 3.
