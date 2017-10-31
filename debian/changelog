@@ -1,6 +1,17 @@
+python-sleepi (1.0.2) unstable; urgency=low
+
+  * debian/changelog: Fix typo
+  * debian/control: Change Homepage URL
+  * debian/copyright: Change Format URL
+  * Change package priority from extra to optional
+  * Update package build dependencies
+  * Update Standards-Version to 3.9.8
+
+ -- Masahiro Honda <honda@mechatrax.com>  Mon, 11 Sep 2017 18:24:20 +0900
+
 python-sleepi (1.0.1) unstable; urgency=low
 
-  * Fix url typo
+  * Fix URL typo
 
  -- Masahiro Honda <honda@mechatrax.com>  Tue, 22 Aug 2017 18:34:47 +0900
 

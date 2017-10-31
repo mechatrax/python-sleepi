@@ -1,19 +1,21 @@
 Source: python-sleepi
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Section: python
-Priority: extra
+Priority: optional
 Build-Depends: python (>= 2.7),
                python3 (>= 3.4),
+               python-smbus,
+               python3-smbus,
                python-setuptools,
                python3-setuptools,
                dh-python,
                debhelper (>= 9)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.4
 Vcs-Git: https://github.com/mechatrax/python-sleepi.git
 Vcs-browser: https://github.com/mechatrax/python-sleepi
-Homepage: http://www.mechatrax.com/
+Homepage: https://www.mechatrax.com/
 
 Package: python-sleepi
 Architecture: all
