@@ -1,3 +1,9 @@
+python-sleepi (1.1.0.1) buster; urgency=medium
+
+  * Fix MANIFEST.in
+
+ -- Masahiro Honda <honda@mechatrax.com>  Mon, 20 Jul 2020 19:34:00 +0900
+
 python-sleepi (1.1.0.0) buster; urgency=medium
 
   * Add slee-Pi 3 support
