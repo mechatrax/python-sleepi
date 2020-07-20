@@ -1,6 +1,7 @@
 .pybuild/*
 build/*
 sleepi.egg-info/*
+dist/*
 
 debian/debhelper-build-stamp
 debian/files

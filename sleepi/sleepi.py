@@ -160,5 +160,30 @@ class Sleepi2(object):
         }
         bus = smbus.SMBus(busnum)
         self.registers = RegisterMapper(bus, devaddr, regmap)
+
+class Sleepi3(object):
+    def __init__(self, busnum, devaddr):
+        regmap = {
+            'voltage1': { 'type': RegisterWord, 'address': 0x00 },
+            'voltage2': { 'type': RegisterWord, 'address': 0x02 },
+            'restore_voltage': { 'type': RegisterWord, 'address': 0x04 },
+            'adc_interval': { 'type': RegisterByte, 'address': 0x06 },
+            'push_switch_count': { 'type': RegisterByte, 'address': 0x07 },
+            'external_input_count': { 'type': RegisterByte, 'address': 0x08 },
+            'watchdog_timeout': { 'type': RegisterByte, 'address': 0x09 },
+            'sleep_timeout': { 'type': RegisterByte, 'address': 0x0A },
+            'watchdog_control': { 'type': RegisterByte, 'address': 0x0B,
+                'flags': { 'rste': 0x00, 'uvlo': 0x02 } },
+            'input_control': { 'type': RegisterByte, 'address': 0x0C,
+                 'flags': { 'ritrg': 0x02, 'eitrg': 0x01, 'eipde': 0x00 } },
+            'io_status': { 'type': RegisterByte, 'address': 0x0D,
+                 'flags': { 'eo': 0x00, 'ei': 0x01, 'sw': 0x02 } },
+            'wakeup_status': { 'type': RegisterByte, 'address': 0x0E,
+                 'flags': { 'prf': 0x06, 'rif': 0x05, 'eif': 0x04,
+                     'swf': 0x03, 'almf': 0x02, 'wdtf': 0x01, 'porf': 0x00 } },
+            'version': { 'type': RegisterByte, 'address': 0x0F }
+        }
+        bus = smbus.SMBus(busnum)
+        self.registers = RegisterMapper(bus, devaddr, regmap)
     
 
