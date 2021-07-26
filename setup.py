@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='sleepi',
-    version='1.1.0',
+    version='1.1',
     description='Python module to control the slee-Pi family',
     long_description=readme(),
     classifiers=[
