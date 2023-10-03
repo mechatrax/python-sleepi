@@ -1,5 +1,6 @@
 Source: python-sleepi
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Uploaders: Masahiro Honda <honda@mechatrax.com>
 Section: python
 Priority: optional
 Build-Depends: python3 (>= 3.7),
@@ -7,7 +8,7 @@ Build-Depends: python3 (>= 3.7),
                python3-setuptools,
                dh-python,
                debhelper-compat (= 12)
-Standards-Version: 4.5.1
+Standards-Version: 4.6.2
 Vcs-Git: https://github.com/mechatrax/python-sleepi.git
 Vcs-browser: https://github.com/mechatrax/python-sleepi
 Homepage: https://mechatrax.com/
