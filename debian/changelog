@@ -1,3 +1,9 @@
+python-sleepi (1.1.1.2) bookworm; urgency=medium
+
+  * debian/copyright: Update contact information
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Fri, 08 Dec 2023 11:54:09 +0900
+
 python-sleepi (1.1.1.1) bookworm; urgency=medium
 
   * debian/control
