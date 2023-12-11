@@ -1,3 +1,10 @@
+python-sleepi (1.1.1+deb11u1) bullseye; urgency=low
+
+  * debian/copyright: Update contact information
+  * debian/control: Add Uploaders
+
+ -- Masahiro Honda <honda@mechatrax.com>  Mon, 11 Dec 2023 18:11:57 +0900
+
 python-sleepi (1.1.1) bullseye; urgency=medium
 
   * debian
