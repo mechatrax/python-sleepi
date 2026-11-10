@@ -1,3 +1,11 @@
+python-sleepi (1.2.0) trixie; urgency=medium
+
+  * Add slee-Pi 4 support
+  * debian/control
+    - Add pybuild-plugin-pyproject to Build-Depends
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Wed, 21 Oct 2026 15:05:24 +0900
+
 python-sleepi (1.1.1.3) trixie; urgency=medium
 
   * Update for trixie
