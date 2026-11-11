@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sleepi"
+version = "1.2"
+description = "Python module to control the slee-Pi family"
+readme = "README.rst"
+license = "MIT"
+authors = [
+  { name = "Masahiro Honda", email = "honda@mechatrax.com" }
+]
+keywords = ["sleepi", "raspberrypi"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Topic :: System :: Hardware"
+]
+dependencies = [
+  "smbus"
+]
+
+[tool.setuptools]
+include-package-data = true
+

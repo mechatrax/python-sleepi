@@ -7,6 +7,7 @@ Build-Depends: python3 (>= 3.7),
                python3-smbus,
                python3-setuptools,
                dh-python,
+               pybuild-plugin-pyproject,
                debhelper-compat (= 13)
 Standards-Version: 4.7.2
 Vcs-Git: https://github.com/mechatrax/python-sleepi.git
